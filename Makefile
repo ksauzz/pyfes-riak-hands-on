@@ -154,3 +154,7 @@ doctest:
 
 watch:
 	watchmedo shell-command --patterns="*.rst" --recursive --wait --command="make html"
+
+deploy: clean html
+	s3cmd -c ~/.s3cmd/y2 sync -P ./build/html/* s3://resource.basho.co.jp/pyfes-hands-on/
+	s3cmd -c ~/.s3cmd/y2 sync -P sample/* s3://resource.basho.co.jp/pyfes-hands-on/sample/

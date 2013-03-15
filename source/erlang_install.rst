@@ -1,8 +1,3 @@
-.. Riak Hands-on documentation master file, created by
-   sphinx-quickstart on Fri Mar 15 15:54:45 2013.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Erlang R15B01のインストール
 =========================================
 
@@ -50,6 +45,11 @@ configureを実行
 
   export PATH=$PATH:/usr/local/erlang/R15B01/bin
 
+PATH設定を追加したファイルを読み込む
+
+::
+
+  source ~/.zshenv
 
 インストールの確認
 ------------------
@@ -64,11 +64,4 @@ erl が起動すればインストール成功
   Eshell V5.9.1  (abort with ^G)
   1>
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 

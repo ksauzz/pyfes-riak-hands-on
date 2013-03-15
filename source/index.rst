@@ -6,12 +6,20 @@
 Riakハンズオン pyfes 2013/03
 =========================================
 
+.. image:: images/riak.png
+
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
-   erlang_installation
+  erlang_install
+  install
+  query
+  mapreduce
+  cluster
+  riak_control
+  python
 
 Indices and tables
 ==================
