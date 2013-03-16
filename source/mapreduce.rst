@@ -35,7 +35,7 @@ Javascriptを使ってMapReduceを実行します。
 
 ::
 
-  $ https://github.com/basho/basho_docs/raw/master/source/data/sample-highs-over-600.json
+  $ wget https://github.com/basho/basho_docs/raw/master/source/data/sample-highs-over-600.json
   $ curl -i -X POST http://localhost:8098/mapred -H 'Content-Type: application/json' -d @sample-highs-over-600.json
 
 
